@@ -8,6 +8,7 @@
     "build": "webpack --mode production",
     "clean": "rm -rf dist",
     "dev": "webpack-cli serve",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
